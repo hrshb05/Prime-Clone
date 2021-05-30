@@ -84,6 +84,21 @@ body{
 	font-size: 17px;
 	letter-spacing: 0.03em;
 }
+.navph{
+	top: 0;
+	right: 0;
+	float: right;
+	display: none;
+}
+.navph div{
+	display: flex;
+	flex-direction: column;
+	right: 0;
+	width: 25px;
+	height: 4px;
+	background-color: white;
+	margin: 5px;
+}
 .sec1{
 	padding: 50px 3%;
 	margin-top:70px;
@@ -313,6 +328,18 @@ padding: 10px 0 30px 0;
 	color: #b0afae;
 }
 
+
+
+
+
+
+                                                       /*Media query 950px*/
+
+
+
+
+
+
 @media screen and (max-width: 950px)
 {
 
@@ -350,6 +377,19 @@ padding: 10px 0 30px 0;
 	letter-spacing: 0.01em;
 	}
 }
+
+
+
+
+
+
+                                                       /*Media query 770px*/
+
+
+
+
+
+
 @media screen and (max-width: 770px)
 {
 	.sec1{
@@ -488,6 +528,353 @@ li{
 	padding-top: 10px;
 	color: #b0afae;
 
+}
+}
+
+
+
+
+
+
+                                                       /*Media query 670px*/
+
+
+
+
+
+
+@media screen and (max-width: 670px)
+{
+	.nav{
+		cursor: default;
+	height: 70px;
+	top: 0;
+}
+.lt-nav{
+	padding: 16px 0px;
+	}
+.rt-nav{
+	position: absolute;
+	right: 0;
+	height: 20vh;
+	top: 8vh;
+	background: linear-gradient( to left,#1b2530 10%,rgba(27,37,48,90) 100%);
+	width: 30%;
+	display: flex;
+	flex-direction: column ;
+	align-items: center;
+	transform: translateX(100%);
+		}
+.nav1,.nav2,.nav3,.nav4{
+	opacity: 0;
+}
+.navph{
+	padding: 10px 20px 0 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+}
+.nav1{
+	display: none;
+}
+.nav2{
+	font-size: 20px;
+	padding: 5em  2em;
+}
+.nav3
+{
+	right: 0;
+	padding: 5.5em 5.5em;
+}
+.nav4{
+	position: absolute;
+	font-size: 20px;
+	padding: 2em 2em;
+}
+
+.sec1{
+		padding-bottom: 10px;
+	background-image: linear-gradient( to top, #000 30%, transparent 58%),url(Images/banner.jpg);
+	background-size: 160% 60%;
+	background-repeat: no-repeat;
+	background-position: right top;
+	
+}
+.ban1,.ban2,.ban3,.ban4{
+	padding: 10px 10px;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+}
+.cont1{
+	
+	text-align: center;
+	padding-right: 0px;
+	padding-top: 30%;
+	max-width: 	100vw;
+}
+.cont1 h1{
+	
+	font-weight: 600;
+	font-size: 29px;
+}
+.cont1 p{
+	background-color: #000;
+	padding-top: 25px;
+	font-size: 1.2em;
+	line-height: 1.3em;
+	letter-spacing: 0.03em;
+	padding: 25px 20px 0 20px;
+	}
+	.btn{
+	padding: 1rem 6rem;
+}
+
+.sec2{
+	padding-top: 5em;
+	background-image: linear-gradient( to top, #000 30%, transparent 58%),url(Images/sec2.jpg);
+	background-size: 155%  50%;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.cont2{
+	text-align: center;
+	padding-left: 0px;
+	padding-top: 50%;
+}
+
+.sec3{
+	padding: 0px 20px;
+	background-image:linear-gradient(to top, #000 50%, transparent 58%),url(Images/bg3.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	color: white;
+	cursor: default;
+
+}
+.cont3{
+	text-align: center;
+	padding-top: 95%;
+	line-height: 1.3;
+}
+.btn3{
+	padding: 0.9em 6em;
+}
+.p1{
+	font-size: 13px !important;
+}
+.sec4{
+	padding: 30px 10px;
+	background-image:  linear-gradient( to top, #000 60%, transparent 58%),url(Images/bg4.jpg);
+	background-size: contain;
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+.cont4{
+	padding-top: 60%;
+	text-align: center;
+
+}
+
+.cont4 p{
+	padding: 40px 0;
+}
+
+	
+.last{
+	padding: 50px 1%;
+	background-image: linear-gradient( to top, #000 30%, transparent 58%),url(Images/last.jpg);
+	background-size: 152% 60%;
+	background-repeat: no-repeat;
+	background-position: right top;
+	color: white;
+	display: block;
+	cursor: default;
+}
+.ban5{
+	padding: 0px 20px;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+.cont5{
+	padding-top: 56%;
+}
+.cont5 h1{
+	text-align: center;
+}
+.cont5 p{
+	padding-top: 25px;
+	font-size: 1.2em;
+	line-height: 1.3em;
+	letter-spacing: 0.03em;
+}
+.btn5{
+	padding: 0.9em 6em
+}
+
+}
+
+
+
+
+
+
+
+                                                       /*Media query 450px*/
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 450px)
+{
+	.sec1{
+		padding-bottom: 10px;
+	background-image: linear-gradient( to top, #000 40%, transparent 58%),url(Images/banner.jpg);
+	background-size: 150% 60%;
+	
+}
+.ban1,.ban2,.ban3,.ban4{
+	padding: 10px 10px;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+}
+.cont1{
+	text-align: center;
+	padding-right: 0px;
+	padding-top: 40%;
+	max-width: 	100vw;
+}
+.cont1 h1{
+	font-size: 27px;
+}
+.cont1 p{
+	padding-top: 20px;
+	font-size: 1.1em;
+	line-height: 1.1em;
+	padding: 20px 10px 0 10px;
+	}
+	.btn{
+	padding: 1rem 3rem;
+}
+
+.sec2{
+	padding-top: 4em;
+
+	background-image: linear-gradient( to top, #000 40%, transparent 58%),url(Images/sec2.jpg);
+	background-size: 155%  50%;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.cont2{
+	text-align: center;
+	padding-left: 0px;
+	padding-top: 40%;
+}
+
+.cont2 h1{
+	line-height: 1em;
+	font-size: 2em;
+	text-align: center;
+}
+
+.cont2 p{
+	padding: 15px 0 0 0 ;
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+.btn2{
+	padding: 1em 4em;
+}
+.sec3{
+	padding: 20px 10px;
+	padding-bottom: 0px;
+	min-height: 500px;
+	background-image:linear-gradient(to top, #000 50%, transparent 58%),url(Images/bg3.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	color: white;
+	cursor: default;
+}
+.cont3{
+	padding-top: 70%;
+}
+.cont3 h1{
+	font-size: 2em;
+}
+.cont3 p{
+	padding-top: 25px;
+}
+.btn3{
+	padding: 0.9em 4em;
+}
+.p1{
+	font-size: 13px !important;
+}
+
+
+.cont4{
+	padding-top: 60%;
+	text-align: center;
+
+}
+.cont4 h1{
+	font-size: 2em;
+}
+.cont4 p{
+	padding: 20px 0;
+}
+
+
+	
+.last{
+	padding: 50px 1% 20px 1% ;
+	background-image: linear-gradient( to top, #000 35%, transparent 58%),url(Images/last.jpg);
+	background-size: 152% 60%;
+	background-repeat: no-repeat;
+	background-position: right top;
+	color: white;
+	display: block;
+	cursor: default;
+}
+
+.cont5{
+	padding-top: 65%;
+}
+.cont5 h1{
+	font-size: 2em;
+	text-align: center;
+}
+.cont5 p{
+	padding-top: 20px;
+	font-size: 1.1em;
+}
+.btn5{
+	padding: 0.9em 4em
+}
+
+
+.foot{
+	padding:20px 0 0 0;
+	min-height: 15vh;
+	display: flex;
+	background-color: #222;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.uli{
+padding: 10px 0 29px 0;
 }
 
 }
